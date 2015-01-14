@@ -111,9 +111,6 @@ int main()
 	SPI[n]=(pow(v,2))*(DPSI[n]+(2./X[n])*PSI[n]-2*H*PI[n]);
       }
       //frontera derecha
-      /*SPI[nx-1]=-(v*idx)*(3*PI[nx-1]-4*PI[nx-2]+PI[nx-3])-v*PI[nx-1]/X[nx-1];
-      SPHI[nx-1]=-(v*idx)*(3*PHI[nx-1]-4*PHI[nx-2]+PHI[nx-3])-v*PHI[nx-1]/X[nx-1];
-      SPSI[nx-1]=-(v*idx)*(3*PSI[nx-1]-4*PSI[nx-2]+PSI[nx-3])-v*PSI[nx-1]/X[nx-1];*/
       SPI[nx]=-(v*idx)*(3*PI[nx]-4*PI[nx-1]+PI[nx-2])-v*PI[nx]/X[nx];
       SPHI[nx]=-(v*idx)*(3*PHI[nx]-4*PHI[nx-1]+PHI[nx-2])-v*PHI[nx]/X[nx];
       SPSI[nx]=-(v*idx)*(3*PSI[nx]-4*PSI[nx-1]+PSI[nx-2])-v*PSI[nx]/X[nx];
@@ -142,9 +139,6 @@ int main()
 	SPI[n]=(pow(v,2))*(DPSI[n] +(2./X[n])*PSI[n]-2*H*PI[n]);
       }
       //frontera derecha
-      /*SPI[nx-1]=-(v*idx)*(3*PI[nx-1]-4*PI[nx-2]+PI[nx-3])-v*PI[nx-1]/X[nx-1];
-      SPHI[nx-1]=-(v*idx)*(3*PHI[nx-1]-4*PHI[nx-2]+PHI[nx-3])-v*PHI[nx-1]/X[nx-1];
-      SPSI[nx-1]=-(v*idx)*(3*PSI[nx-1]-4*PSI[nx-2]+PSI[nx-3])-v*PSI[nx-1]/X[nx-1];*/
       SPI[nx]=-(v*idx)*(3*PI[nx]-4*PI[nx-1]+PI[nx-2])-v*PI[nx]/X[nx];
       SPHI[nx]=-(v*idx)*(3*PHI[nx]-4*PHI[nx-1]+PHI[nx-2])-v*PHI[nx]/X[nx];
       SPSI[nx]=-(v*idx)*(3*PSI[nx]-4*PSI[nx-1]+PSI[nx-2])-v*PSI[nx]/X[nx];
@@ -172,9 +166,6 @@ int main()
 	SPI[n]=(pow(v,2))*(DPSI[n] +(2./X[n])*PSI[n]-2*H*PI[n]);
       }
       //frontera derecha
-      /*SPI[nx-1]=-(v*idx)*(3*PI[nx-1]-4*PI[nx-2]+PI[nx-3])-v*PI[nx-1]/X[nx-1];
-      SPHI[nx-1]=-(v*idx)*(3*PHI[nx-1]-4*PHI[nx-2]+PHI[nx-3])-v*PHI[nx-1]/X[nx-1];
-      SPSI[nx-1]=-(v*idx)*(3*PSI[nx-1]-4*PSI[nx-2]+PSI[nx-3])-v*PSI[nx-1]/X[nx-1];*/
       SPI[nx]=-(v*idx)*(3*PI[nx]-4*PI[nx-1]+PI[nx-2])-v*PI[nx]/X[nx];
       SPHI[nx]=-(v*idx)*(3*PHI[nx]-4*PHI[nx-1]+PHI[nx-2])-v*PHI[nx]/X[nx];
       SPSI[nx]=-(v*idx)*(3*PSI[nx]-4*PSI[nx-1]+PSI[nx-2])-v*PSI[nx]/X[nx];
